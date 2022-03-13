@@ -15,7 +15,6 @@ const keys = {
     }
   }
 
-  
 window.addEventListener('keydown', (e) => {
     switch (e.key) {
       case 'w':
@@ -25,13 +24,12 @@ window.addEventListener('keydown', (e) => {
       case 'a':
         keys.a.pressed = true
         lastKey = 'a'
-        break
-  
+        break  
       case 's':
         keys.s.pressed = true
         lastKey = 's'
         break
-  
+
       case 'd':
         keys.d.pressed = true
         lastKey = 'd'
